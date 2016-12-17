@@ -1,0 +1,33 @@
+{
+  "name": "thewhiskyexchange",
+  "version": "1.0.0",
+  "description": "whisky-2-scrape",
+  "main": "tester.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "scraper",
+    "node",
+    "whisky"
+  ],
+  "author": "Gabs",
+  "license": "ISC",
+  "engines": {
+    "node": "4.6.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "csvtojson": "^1.0.3",
+    "deep-diff": "^0.3.4",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "fs": "0.0.1-security",
+    "jquery": "^3.1.1",
+    "nodemailer": "^2.6.4",
+    "request": "^2.79.0",
+    "requestify": "^0.2.5",
+    "semaphore": "^1.0.5"
+  }
+}
